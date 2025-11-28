@@ -1,5 +1,5 @@
-import { getTodosFromLocalStorage } from "./storage.js";
-import { renderTodos, initTodoHandlers } from "./dom.js";
+import { getTodosFromLocalStorage } from "./simple-todo/storage.js";
+import { renderTodos, initTodoHandlers } from "./simple-todo/dom.js";
 
 const todos = getTodosFromLocalStorage() || [];
 
