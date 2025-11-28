@@ -1,6 +1,6 @@
-import { todoKeys } from "./constants.js";
-import { setTodosToLocalStorage } from "./storage.js";
-import { createTodo, completeTodoById, deleteTodoById } from "./service.js";
+import { todoKeys } from "./simple-todo/constants.js";
+import { setTodosToLocalStorage } from "./simple-todo/storage.js";
+import { createTodo, completeTodoById, deleteTodoById } from "./simple-todo/service.js";
 
 const formElement = document.querySelector(".form");
 const inputElement = document.querySelector(".input");
